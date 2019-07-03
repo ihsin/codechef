@@ -1,10 +1,13 @@
+#https://www.codechef.com/problems/TSORT
 t= input()
 t= int(t)
 
 arr= list()
 
-for i in range(t,0,-1):
-    arr.append(input())
+for i in range(0,t):
+    arr.append(int(input()))
+
+arr.sort()
 
 for i in arr:
-    print(i)
+	print(i)
